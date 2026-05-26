@@ -1,0 +1,42 @@
+button {
+  border: none;
+
+  padding: 12px 22px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.btn-entrar {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-destaque {
+  width: 220px;
+
+  background: #0f172a;
+  color: white;
+}
+
+.btn-footer {
+  background: white;
+  color: #0f172a;
+}
+
+.btn-adicionar {
+  background: #2563eb;
+  color: white;
+
+  width: 140px;
+}

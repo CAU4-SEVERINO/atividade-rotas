@@ -1,0 +1,50 @@
+.card {
+  background: rgb(10, 2, 101);
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  min-height: 230px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: 0.3s;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #ffee00;
+}
+
+.card p {
+  color: #ffffff;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.destaque {
+  background: #0f172a;
+
+  border: 2px solid #2563eb;
+
+  transform: scale(1.03);
+
+  box-shadow: 0 0 20px rgba(37,99,235,0.3);
+}
+
+.destaque h3,
+.destaque p {
+  color: white;
+}

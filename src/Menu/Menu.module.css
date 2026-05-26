@@ -1,0 +1,25 @@
+.navegacao{
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+
+.navlink{
+    display: flex;
+    gap: 15px;
+    width: 850px;
+}
+@media (max-width: 774px){
+    .navegacao{
+        height: 72px;
+    }
+}
+
+.Logo{
+    margin-left: 20px;
+    height: 130px;
+    padding: 20px;
+}
