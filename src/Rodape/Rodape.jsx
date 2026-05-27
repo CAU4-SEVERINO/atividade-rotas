@@ -6,8 +6,7 @@ const Rodape = () => {
         <div>
             <br />
             <footer className={styles.rodape}>
-            
-                Desenvolvido unico e exclusivamente por mim, trabalho espetacular e fantastico
+            A empresa Garibaldi oferece com grande prestigio e com seu desenvolvedor CAUÃ que conheçam o seu GitHub: "https://github.com/CAU4-SEVERINO/atividade-rotas"
             </footer>
         </div>
     )

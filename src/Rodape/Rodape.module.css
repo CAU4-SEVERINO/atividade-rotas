@@ -1,6 +1,6 @@
 .rodape{
     background-color: var(--azul-escuro);
-    color: var(--branco);
+    color: rgb(84, 82, 82);
     padding: 2rem 0;
     display: flex;
     justify-content: center;
