@@ -5,6 +5,7 @@ import Inicio from "./paginas/Inicio/Inicio"
 import Esportes from "./paginas/Esportes/Esportes"
 import Idolos from "./paginas/Idolos/Idolos"
 import Rodape from "./Rodape/Rodape"
+import "./App.css"
 
 const App = () =>{
   return(

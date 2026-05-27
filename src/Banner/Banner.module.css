@@ -19,3 +19,96 @@
     line-height: 2rem;
     margin-bottom: 2rem;
 }
+
+.imagens{
+    position: relative;
+    height: 406px;
+}
+
+.mosqueteiro{
+    position: absolute;
+    right: 0;
+    bottom: 2;
+    width: 40vw;
+
+}
+
+@media (max-width: 1100px) {
+  .banner {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .titulo {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .paragrafo {
+    margin-bottom: 1.5rem;
+  }
+
+  .imagens {
+    height: 338px;
+  }
+
+  .imagens > .mosqueteiro {
+    width: 25vw;
+  }
+}
+@media (max-width: 1100px) {
+  .banner {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .titulo {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .paragrafo {
+    margin-bottom: 1.5rem;
+  }
+
+  .imagens {
+    height: 338px;
+  }
+
+  .imagens > .error_404 {
+    width: 25vw;
+  }
+
+  .imagens > .circuloColorido {
+    right: 10vw;
+    width: 35vw;
+  }
+}
+
+@media (max-width: 744px) {
+  .banner {
+    padding: 2rem 1rem;
+    display: block;
+  }
+
+  .titulo {
+    margin-bottom: 2rem;
+  }
+
+  .pararafo {
+    margin-bottom: 2rem;
+  }
+
+  .imagens {
+    height: 307px;
+  }
+
+  .imagens > .mosqueteiro {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .imagens > .mosqueteiro {
+    width: 170px;
+    transform: translate(5rem, 0px);
+  }
+}
